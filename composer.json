@@ -1,0 +1,21 @@
+{
+    "name": "weijer/phpass",
+    "description": "Portable PHP password hashing framework",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "weijer",
+            "email": "chengwei@strack.me"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phpass\\": "src"
+        }
+    }
+}
